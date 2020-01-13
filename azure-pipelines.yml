@@ -20,3 +20,7 @@ steps:
 
 - script: sh hello.sh
   displayName: 'Run hello.sh'
+- task: Bash@3
+  inputs:
+    filePath: 'hello.sh'
+    arguments: 'is Bash a programming language'
