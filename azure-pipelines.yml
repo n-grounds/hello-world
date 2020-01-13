@@ -18,5 +18,5 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- script: ./hello.sh
+- script: sh hello.sh
   displayName: 'Run hello.sh'
